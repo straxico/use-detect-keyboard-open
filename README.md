@@ -10,6 +10,12 @@ or
 
 `npm i use-detect-keyboard-open`
 
+### **See it in Action** ###
+
+<center>
+<video height=300 src="./static/video.mp4" />
+</center>
+
 ### example
 
 ```
