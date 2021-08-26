@@ -13,7 +13,7 @@ or
 ### **See it in Action** ###
 
 <center>
-<video height=300 src="./static/video.mp4" />
+<img height=300 src="./static/work.gif" />
 </center>
 
 ### example
