@@ -1,6 +1,6 @@
 {
   "name": "use-detect-keyboard-open",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "a tiny React hook which allows you to track state of open/close soft keyboard in mobile",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -37,10 +37,18 @@
     "responsive"
   ],
   "author": "straxico",
-  "repository": "github:straxico/use-detect-keyboard-open",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/straxico/use-detect-keyboard-open.git"
+  },
   "license": "MIT",
   "files": [
     "build/",
     "README.md"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/straxico/use-detect-keyboard-open/issues"
+  },
+  "homepage": "https://github.com/straxico/use-detect-keyboard-open#readme"
+  
 }
