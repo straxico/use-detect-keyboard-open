@@ -1,6 +1,6 @@
 {
   "name": "use-detect-keyboard-open",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "a tiny React hook which allows you to track state of open/close soft keyboard in mobile",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",

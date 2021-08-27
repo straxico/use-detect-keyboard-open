@@ -12,7 +12,7 @@ const useDetectKeyboardOpen = (minKeyboardHeight = 300,defaultValue) => {
         };
         window.visualViewport.addEventListener('resize', listener);
         return () => {
-            window.visualViewport.addEventListener('resize', listener);
+            window.visualViewport.removeEventListener('resize', listener);
         };
     }, []);
 
