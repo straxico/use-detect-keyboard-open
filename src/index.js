@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const useDetectKeyboardOpen = (minKeyboardHeight = 300,defaultValue) => {
+const useDetectKeyboardOpen = (minKeyboardHeight = 300, defaultValue) => {
     const [isKeyboardOpen, setIsKeyboardOpen] = useState(defaultValue);
 
     useEffect(() => {
@@ -10,9 +10,13 @@ const useDetectKeyboardOpen = (minKeyboardHeight = 300,defaultValue) => {
                 setIsKeyboardOpen(newState);
             }
         };
-        window.visualViewport.addEventListener('resize', listener);
+        if (typeof visualViewport != 'undefined') {
+            window.visualViewport.addEventListener('resize', listener);
+        }
         return () => {
-            window.visualViewport.removeEventListener('resize', listener);
+            if (typeof visualViewport != 'undefined') {
+                window.visualViewport.removeEventListener('resize', listener);
+            }
         };
     }, []);
 
