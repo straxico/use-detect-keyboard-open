@@ -19,7 +19,7 @@
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
-    "copy-webpack-plugin": "^7.0.0",
+    "copy-webpack-plugin": "^9.0.1",
     "typescript": "^4.2.2",
     "webpack": "^5.24.1",
     "webpack-cli": "^4.5.0"
